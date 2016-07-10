@@ -1,0 +1,10 @@
+@charset "utf-8";
+@import "reset";
+@import "./vendor/bootstrap";
+@import "./config/variable";
+@import "./mixin/clearfix";
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'cursive';
+  color: yellow;
+}

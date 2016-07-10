@@ -1,0 +1,68 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+    %title Product Box
+    %link{:href => "stylesheets/style.css", :rel => "stylesheet"}
+  %body
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    %script{:src => "js/bootstrap.min.js"}
+    .product
+      .product__top
+        %img{:src => "images/top.png"}
+          %img{:src => "images/logo.png"}
+          %h2 WEB SERVICE iOS APPLICATION PRODUCTS BOX
+      .product__menu
+        %h2 Welcome to Product box!
+        .product__menu__regist
+          %p REGIST YOUR PRODUCT
+          %img{:src => "images/icn_arrowright.png"}
+        %h4 TRYING TO FIND A NEW PRODUCT OUT OF THE BOX
+        %h5 FIND BY
+        .product__menu__buttons
+          .product__menu__buttons--box
+            A NEW ORDER
+          .product__menu__buttons--box
+            POPULAR
+          .product__menu__buttons--box
+            CATEGORY
+      .product__order
+        .product__order__column.row
+          .col-xs-3
+            %img{:src => "images/img_product1.png"}
+          .col-xs-3
+            %img{:src => "images/img_product2.png"}
+          .col-xs-3
+            %img{:src => "images/img_product3.png"}
+          .col-xs-3
+            %img{:src => "images/img_product4.png"}
+        .product__order__column
+          .col-xs-3
+            %img{:src => "images/img_product5.png"}
+          .col-xs-3
+            %img{:src => "images/img_product6.png"}
+          .col-xs-3
+            %img{:src => "images/img_product7.png"}
+          .col-xs-3
+            %img{:src => "images/img_product8.png"}
+        .product__order__more
+          %button MORE
+      .product__regist
+        %h2 LET'S REGISTER YOUR PRODUCT
+        %button MORE REGIST YOUR PRODUCT
+        %img{:src => "images/logo.png"}
+      %footer
+        .footer__menu
+          %a{:href => ""} PRODUCT LISTS
+          %span |
+          %a{:href => ""} A NEW ORDER
+          %span |
+          %a{:href => ""} POPULAR
+          %span |
+          %a{:href => ""} CATEGORY
+          %span |
+          %a{:href => ""} REGIST YOUR PRODUCT
+
+
